@@ -223,9 +223,7 @@ class DiffusionModel(keras.Model):
             plt.plot(self.history.history[key], label=key)
         plt.legend(loc='upper right')
         plt.grid(True)
-        print(1111)
-        plt.savefig(f'{self.path.LOG_LOSSPATH}/loss.png');print(1111)
-
+        plt.savefig(f'{self.path.LOG_LOSSPATH}/loss.png')
         for key in self.history.history:
             np.save(arr=self.history.history[key], file=f'{self.path.LOG_LOSSPATH}/{key}.npy')
     def result(self):
