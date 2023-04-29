@@ -27,4 +27,4 @@ if __name__=='__main__':
     model.train()
     model.result()
     t2 = time.time()
-    print('used time:',t2-t1)
+    print('used time:',t2-t1) #50epoch 57min
