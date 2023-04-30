@@ -28,3 +28,8 @@ if __name__=='__main__':
     model.result()
     t2 = time.time()
     print('used time:',t2-t1) #50epoch 57min
+
+    # import utils
+    # utils.trainvideo(speed=3,imgpath='./result/2023-04-30-00-56-11-experiment/training/img/*.png')
+
+
